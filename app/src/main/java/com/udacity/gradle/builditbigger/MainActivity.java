@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        new EndPointsAsyncTask().execute();
+        new EndPointsAsyncTask().execute(this);
     }
 
 }
