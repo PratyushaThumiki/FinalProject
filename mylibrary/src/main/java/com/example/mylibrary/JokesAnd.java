@@ -12,8 +12,8 @@ public class JokesAnd extends AppCompatActivity {
         setContentView(R.layout.activity_lib);
 
         String joke_final = getIntent().getStringExtra("Final Joke:");
-        TextView final_joke = (TextView) findViewById(R.id.joke);
-        final_joke.setText(joke_final);
+        TextView final_joke_tv = (TextView) findViewById(R.id.joke);
+        final_joke_tv.setText(joke_final);
     }
 
 }
