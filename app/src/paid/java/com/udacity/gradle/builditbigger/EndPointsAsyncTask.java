@@ -14,7 +14,7 @@ import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
 import java.io.IOException;
-AIzaSyDoaasLxlqF8DQEdnTuiBb9BHOcgl_6Drg
+
 public class EndPointsAsyncTask extends AsyncTask<Void, Void, String> {
     private static MyApi myApiService = null;
     private Context context;
