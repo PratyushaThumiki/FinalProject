@@ -35,7 +35,4 @@ public class EndpointAsyncTaskTest implements EndpointAsyncTask.ProgressBarInter
 
         Assert.assertTrue(result.length() > 0 && !result.equals("connect timed out"));
     }
-
-    @Override
-    public void hideProgressBar(boolean hide) {}
 }
