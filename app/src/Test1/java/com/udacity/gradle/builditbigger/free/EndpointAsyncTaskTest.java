@@ -12,8 +12,6 @@ import org.junit.Test;
 
 import java.util.concurrent.ExecutionException;
 
-import static org.junit.Assert.*;
-
 
 class EndpointsAsyncTaskTest extends AsyncTask<Context, Void, String> {
     private static MyApi myApiService = null;

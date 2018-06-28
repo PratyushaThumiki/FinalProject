@@ -52,9 +52,9 @@ public class EndPointsAsyncTask extends AsyncTask<Void, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
-        Toast.makeText(context,result,Toast.LENGTH_LONG).show();
         final Intent intent = new Intent(context, JokesAnd.class);
         intent.putExtra("Final joke:",result);
         context.startActivity(intent);
+
     }
 }

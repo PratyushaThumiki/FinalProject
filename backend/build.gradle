@@ -37,7 +37,7 @@ appengine {
         oauth2 = true
     }
     endpoints {
-        getClientLibsOnBuild = true
+        getClientLibsOnBuild =true
         getDiscoveryDocsOnBuild = true
     }
 }
