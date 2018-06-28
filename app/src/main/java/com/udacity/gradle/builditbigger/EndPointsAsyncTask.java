@@ -3,8 +3,6 @@ package com.udacity.gradle.builditbigger;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.util.Pair;
-import android.widget.Toast;
 
 import com.example.mylibrary.JokesAnd;
 import com.google.api.client.extensions.android.http.AndroidHttp;
@@ -53,7 +51,7 @@ public class EndPointsAsyncTask extends AsyncTask<Void, Void, String> {
     @Override
     protected void onPostExecute(String result) {
         final Intent intent = new Intent(context, JokesAnd.class);
-        intent.putExtra("Final joke:",result);
+        intent.putExtra(JokesAnd.JOKE_KEY,result);
         context.startActivity(intent);
 
     }

@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class JokesAnd extends AppCompatActivity {
 
-    private final static String JOKE_KEY = "com.example.mylibrary.joke_key";
+    public final static String JOKE_KEY = "com.example.mylibrary.joke_key";
     private String Joke;
 
     @Override
